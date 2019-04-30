@@ -1,0 +1,320 @@
+body {
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+
+header {
+  padding: 20px 0px;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+hr {
+  background-color: #7db92a;
+  border: none;
+  width: 35px;
+  height: 2px;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+#webinar-box1, #webinar-box2 {
+  background-image: url('../../assets/images/webinar.jpg');
+  color: white;
+  padding: 30px 0;
+}
+
+#full-length-webinar {
+  background-image: url('../../assets/images/webinar-wide.jpg');
+  background-size: cover;
+  color: white;
+}
+
+#full-length-webinar .webinar-image {
+  margin: 30px 0;
+}
+
+#navigation-bar {
+  position: relative;
+  background-color: #343c43;
+  color: white;
+  padding: 30px 0;
+  margin-left: calc(-50vw + 50%);
+  width: 100vw;
+  margin-bottom: 50px;
+  z-index:999;
+}
+
+#navigation-bar.fixed {
+  position: fixed;
+  top: 0;
+  min-height: 100px;
+  height: auto;
+  margin: 0 0 0 0;
+  left: 0;
+  max-height: 110px;
+  padding: 10px 0;
+}
+
+#navigation-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.hr-centered {
+  margin: auto auto 20px;
+  height: 4px;
+}
+
+.text-box {
+  margin-bottom: 30px;
+}
+
+.main-container {
+  background-color: white;
+  position: relative;
+  top: -120px
+}
+
+.header-text {
+  float: left;
+  padding-left: 20px;
+}
+
+.heading-container {
+  display: flex;
+}
+
+.logo-area img {
+  margin: 20px 0;
+}
+
+.heading-container hr {
+  margin: auto 0 auto 0;
+  background: #fefefe;
+  transform: rotate(90deg);
+  width: 55px;
+  height: 2px;
+}
+
+.green-blue-gradient {
+  background-image: linear-gradient(to right, #7db92a , #00b5c7);
+}
+
+.header-image {
+  width:100%;
+}
+
+.header-image img {
+  width: 100%;
+}
+
+.k2-icon {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.k2-icon .icon {
+  width: 50%;
+  margin: auto;
+}
+
+.k2-icon .icon img {
+  height: 80px;
+}
+
+.fixed img {
+  height: 40px !important;
+}
+
+
+.fixed + section {
+  margin-top: 220px;
+}
+
+.k2-icon p {
+  margin: 10px 0 0;
+  font-size: 15px;
+}
+
+.k2-icon a {
+  text-decoration: none;
+  color: white;
+}
+
+.light-blue {
+  background-color: #00b5c8;
+  color: white;
+}
+
+.light-blue-text {
+  color: #00b5c8;
+}
+
+.light-blue p {
+  font-size: 23px;
+  line-height: 35px;
+  padding: 30px 30px;
+}
+
+.green {
+  color: #7db92d;
+  font-size: 18px;
+}
+
+.register-box {
+  margin:20px;
+}
+
+.register-boxes {
+  float: none;
+  margin: auto;
+}
+
+button {
+  background-color: transparent;
+  border: 1.5px solid white;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: white;
+}
+
+.blue-btn {
+  border: 1px solid #00b4c8;
+  color: #00b4c8;
+}
+
+.register img {
+  height: 15px;
+  margin-left: 20px;
+}
+
+.register {
+  font-size: 13px;
+}
+
+ul li {
+  list-style-image: url('../../assets/images/icons/green-check-empty.png');
+  margin: 20px 0;
+}
+
+.inline-SAP-icons {
+  width: 75px;
+  height: 65px;
+  float: left;
+  margin: 0 25px 25px 0;
+}
+
+.section-head {
+  padding-top: 50px;
+}
+
+.spotlight {
+  padding-top: 50px;
+  background: url('../../assets/images/spotlight.jpg') no-repeat;
+  background-size: cover;
+  background-position: 75% 0;
+  display: block;
+  height: 100%;
+}
+
+.spotlight-inner {
+  width: 95%;
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.single-bullet {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  justify-content: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+}
+
+.check-mark {
+  margin-right: 15px;
+}
+
+.active p {
+  color: #ffffff;
+  background-color: #7db92a;
+  border-radius: 999px;
+}
+
+.footer-area {
+  background-color: #343c43;
+  color: white;
+}
+
+.footer-area .footer-logo {
+  border-right: 2px solid white;
+  width: 115px;
+}
+
+.footer-widget {
+  padding: 30px 0;
+}
+
+.footer-widget .connect p {
+  margin-bottom: 0px;
+}
+
+.footer-top input {
+  background: rgba(0, 0, 0, 0);
+  border: 2px #00b5c8 solid;
+  border-radius: 5px;
+  text-align: center;
+  width: 75%;
+}
+
+.footer-top .search-input {
+  text-align: left;
+}
+
+.social-links img {
+  height: 20px;
+  padding: 0 5px;
+}
+
+.footer-links {
+  padding-top: 25px;
+  font-size: 12px;
+}
+
+.footer-copyright p {
+  font-size: 10px;
+}
+
+.copyright-text {
+  color: #6b6b6b;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .main-container {
+    top: 0;
+  }
+}
